@@ -1,0 +1,35 @@
+/* BODY */
+
+body {
+    font-family: Avenir,sans-serif;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/0d82fa93c3396aaa9dcb84622d45f6d7a0d0b58cc98195abeb461b08e64b6f62/original);
+    height: 900px;
+}
+
+.banner h1 {
+    text-align: center;
+}
+
+/* HOME */
+
+.sectionOne {
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/73026f32a2be0e42b3117f697c83093482d7943ba8c56ad8b65fd901ec00662f/original);
+    background-position: center;
+    background-size: cover;
+    height: 970px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 100px) {
+    .sectionOne {
+        background-image: none;
+        height: 650px;
+    }
+}
